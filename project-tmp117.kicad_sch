@@ -1598,16 +1598,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 69.85) (xy 22.86 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e61aa49-9cac-41e6-92a8-e9a2f72b5955")
-	)
-	(wire
-		(pts
 			(xy 27.94 39.37) (xy 36.83 39.37)
 		)
 		(stroke
@@ -1635,16 +1625,6 @@
 			(type default)
 		)
 		(uuid "46731811-105b-494d-9feb-52793a133a57")
-	)
-	(wire
-		(pts
-			(xy 22.86 95.25) (xy 22.86 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b868163-98d5-4100-8a92-4bfad9bbec57")
 	)
 	(wire
 		(pts
@@ -1778,16 +1758,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 95.25) (xy 22.86 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c5a7ee-9c28-4728-8e0f-c7073db6eb4d")
-	)
-	(wire
-		(pts
 			(xy 27.94 41.91) (xy 30.48 41.91)
 		)
 		(stroke
@@ -1915,6 +1885,16 @@
 			(type default)
 		)
 		(uuid "c9e9feed-fa3d-4828-a3f8-a9d39f15da2f")
+	)
+	(wire
+		(pts
+			(xy 53.34 95.25) (xy 58.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb105af2-0a28-45e0-a4ee-787b9a099cfe")
 	)
 	(wire
 		(pts
@@ -3001,71 +2981,6 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 22.86 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a208853-49f9-4662-bf52-f2d8cc3cd29e")
-		(property "Reference" "#PWR08"
-			(at 22.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 23.241 65.4558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5216f7f8-96d1-41bc-8211-7933945d73f5")
-		)
-		(instances
-			(project "project-tmp117"
-				(path "/98c9e280-7660-4ce7-b6c8-d4c1f6cd8632"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
 		(at 76.2 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3259,76 +3174,6 @@
 			(project "project-tmp117"
 				(path "/98c9e280-7660-4ce7-b6c8-d4c1f6cd8632"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 22.86 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ad64caa-d4c2-46c1-8464-523c7e7aa66b")
-		(property "Reference" "R1"
-			(at 25.4 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 25.4 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 21.082 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 22.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "46ed5706-98d7-43e2-bdfd-c32de25d1246")
-		)
-		(pin "1"
-			(uuid "a6354948-067d-4842-a1c3-0771f4ff19e4")
-		)
-		(instances
-			(project "project-tmp117"
-				(path "/98c9e280-7660-4ce7-b6c8-d4c1f6cd8632"
-					(reference "R1")
 					(unit 1)
 				)
 			)
