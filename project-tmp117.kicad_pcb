@@ -276,7 +276,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9a710d9c-d51c-4b20-99a4-582a1a3fc332")
@@ -288,9 +288,8 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 1.68 270)
+			(at 1 -3 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "0d5c38ec-8c38-4a85-b689-cbbc93697fa0")
 			(effects
 				(font
@@ -441,7 +440,7 @@
 			(uuid "e83cccae-c432-4a2b-995c-da9b2a5a9126")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "5797a9e9-a497-41d8-ac25-1a4cf1c13a79")
 			(effects
@@ -676,7 +675,6 @@
 		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "43dc99c1-1d81-458f-bd88-abacd63cbad1")
 			(effects
 				(font
@@ -872,7 +870,7 @@
 		(uuid "52f1e311-e59c-4b77-b158-cd5b35f338b7")
 		(at 27 26)
 		(property "Reference" "J7"
-			(at -0.545095 -1.767685 360)
+			(at -0.545095 -1.767685 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9acebe77-fbbc-40c9-a146-a8ed08101380")
@@ -884,7 +882,7 @@
 			)
 		)
 		(property "Value" "SM04B-SRSS-TB(LF)(SN)"
-			(at 12.17039 5.74055 360)
+			(at 12.17039 5.74055 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dbc36591-4970-4744-941f-dab0829d5de5")
@@ -1345,7 +1343,7 @@
 		(uuid "5761a5f4-4b93-41a4-b917-56bf5ac5c6df")
 		(at 56 24.25 90)
 		(property "Reference" "U1"
-			(at 0.532 -1.9064 270)
+			(at 0.532 -1.9064 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eace0e88-3362-4f62-a47a-4c67be9cd79f")
@@ -1357,7 +1355,7 @@
 			)
 		)
 		(property "Value" "TMP117AIDRVR"
-			(at 6.2216 1.9064 270)
+			(at 6.2216 1.9064 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1470a185-22ee-4f17-a2ec-1b29d564b7b3")
@@ -1862,7 +1860,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP3"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "af3d3d1b-80cb-4b91-930c-a29641b25d87")
@@ -2165,7 +2163,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b8bc8d19-71f2-4846-864b-ca95165ee4d5")
@@ -2477,7 +2475,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b622367b-5389-4a1e-8232-b3626df8b8c2")
@@ -2778,9 +2776,8 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 90)
+			(at -2 1.5 180)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "d59fed3a-33f9-486c-9ffb-6b51e0768fe3")
 			(effects
 				(font
@@ -2990,9 +2987,8 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 90)
+			(at -1 -2 180)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "520d6d39-fbd8-4566-b9ac-75519466c4e3")
 			(effects
 				(font
@@ -3663,7 +3659,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP4"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "aaa94ef8-5786-44fb-8c71-1af7f987ab65")
